@@ -1,5 +1,5 @@
 package fr.unilim.iut.mars_rover.handler;
 
-public class directionHandler {
+public class RightHandler {
 
 }
