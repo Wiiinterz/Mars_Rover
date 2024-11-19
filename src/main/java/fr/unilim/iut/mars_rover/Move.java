@@ -8,6 +8,17 @@ public class Move {
 	}
 	
 	public void moveInADirection (Rover rover) {
-		//TODO
+		if (rover.getDirection()==Direction.N) {
+			rover.setY(rover.getY()+1);
+		}
+		else if (rover.getDirection()==Direction.S) {
+			rover.setY(rover.getY()-1);
+		}
+		else if (rover.getDirection()==Direction.W) {
+			rover.setX(rover.getX()-1);
+		}
+		else {
+			rover.setX(rover.getX()+1);
+		}
 	}
 }
